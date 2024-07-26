@@ -1,0 +1,19 @@
+{
+  "name": "casino-36",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "vitest": "^2.0.3"
+  },
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
