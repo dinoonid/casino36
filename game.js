@@ -65,7 +65,7 @@ export function playerPlay(game) {
   const player = game.players.find(
     (player) => player.id === game.playerIdOrder[0]
   );
-  prompt(`➡️ ${player.name} : press Enter to roll the dice)`);
+  prompt(`➡️ ${player.name} : press Enter to roll the dice`);
   const randomDice = rollDice();
   console.log(`🎲 ${player.name} rolled a ${randomDice}`);
   checkTotalScore(game, randomDice);
